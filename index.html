@@ -13,6 +13,10 @@
       <p>現在のカウント: <span data-counter-target="countDisplay"></span></p>
       <button data-action="click->counter#increment">+1</button>
     </div>
+    <div data-controller="toggle">
+      <p data-toggle-target="status">状態： 非表示中</p>
+      <button data-action="click->toggle#toggle">トグル</button>
+    </div>
 
     <script type="module" src="./dist/index.js"></script>
   </body>
